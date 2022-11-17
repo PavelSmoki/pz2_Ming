@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/reset.css">
+</head>
+<body>
+    <div class="container">
+       
+        <nav>
+            <a class="nav__link" href="#aquatable">Краски </a> <span>| </span>
+            <a class="nav__link" href="#brushtable">Кисточки </a> <span>| </span>
+            <a class="nav__link" href="#cuptable">Стаканчики</a>
+        </nav>
+    
+        <header class="header">
+            <h1 class="title">Канцелярия для Вас и Ваших детей</h1>
+
+            <picture class="title__img">
+                <source media="(max-width: 768px)" srcset="../img/img_1_360px.png">
+                <source media="(max-width: 1271px)" srcset="../img/img_1_768px.png">
+                <img src="../img/img_1.png" alt="канцелярия">
+            </picture>
+        </header>
+        
+        <main>
+            <h2 class="subtitle">Детские принадлежности</h2>
+            <p class="description">В нашем интернет-магазине вы сможете найти большой выбор детских принадлежностей.<br>
+            Большой выбор фломастеров, карандашей, тетрадей.</p>
+
+            <img class="intro__img" src="../img/img_2.png" alt="принадлежности для рисования" width="1269" height="695" usemap="#map">
+            <map name="map">
+            <area shape="rect" coords="605,220,840,468" href="#aquatable" alt="Набор акварелей">
+            <area shape="circle" coords="683,86,78" href="#cuptable" alt="Стаканчики">
+            <area shape="poly" coords="848,110,860,98,878,96,950,191,961,187,910,102,913,97,932,82,958,127,964,125,986,108,1202,545,1202,553,1198,554,1190,552,1167,512,1164,517,1158,517,1164,543,1159,550,1126,497,1122,503,1117,501,1134,546,1133,557,1121,556,1117,562,1114,589,922,282,913,245,920,231" href="#brushtable" alt="Набор кисточек">
+            <area shape="rect" coords="0,25,588,693" href="https://arzamas.academy/mag/927-impressionism" target="_blank" alt="альбом">
+            </map>
+        </main>
+
+        <section>
+            <div class="tables">
+                <div class="logos"><img src="../img/akva.svg" alt=""></div>
+                <h2 class="tables__title" id="aquatable">Набор акварелей</h2>
+                <table>
+                    <tr>
+                        <th>10 шт.</th>  <th>20 шт.</th> <th>30 шт.</th>  <th>40 шт.</th>  <th>50 шт.</th> <th>60 шт.</th> 
+                    </tr>
+                    <tr>
+                        <td>10 BYN</td>  <td>20 BYN</td>  <td>30 BYN</td>  <td>40 BYN</td> <td>50 BYN</td> <td>60 BYN</td> 
+                    </tr>
+                    <tr class="tfoot__akva">
+                        <td colspan="4"><p style="margin-left: 53px; text-align:left">*Скидка 5% при покупке от 30 шт.</p></td> <td>*6%</td> <td>*7%</td> 
+                    </tr>
+                </table>
+
+                <div class="logos">
+                    <iframe src="../img/kist.svg" width="50" height="54"></iframe>
+                </div>        
+                <h2 class="tables__title" id="brushtable">Набор кисточек</h2>
+                <table>
+                    <tr>
+                        <th>10 шт.</th>  <th>20 шт.</th> <th>30 шт.</th>  <th>40 шт.</th>  <th>50 шт.</th> <th>60 шт.</th> 
+                    </tr>
+                    <tr>
+                        <td>5 BYN</td>  <td>10 BYN</td>  <td>15 BYN</td>  <td>20 BYN</td> <td>25 BYN</td> <td>30 BYN</td> 
+                    </tr>
+                </table>
+
+                <div class="logos">
+                    <svg width="35" height="55" viewBox="0 0 35 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H34.9L30.8117 44.5621C30.5657 47.2443 29.4142 49.7312 27.5808 51.54C25.7474 53.3488 23.3629 54.3505 20.8901 54.3506H14.0098C11.5371 54.3505 9.15259 53.3488 7.31919 51.54C5.4858 49.7312 4.33432 47.2443 4.08828 44.5621L0 0ZM6.25707 13.5877L5.50921 5.43506H29.3908L28.6429 13.5877H6.25707ZM6.75564 19.0227L9.04906 44.0213C9.17208 45.3624 9.74782 46.6058 10.6645 47.5103C11.5812 48.4147 12.7735 48.9155 14.0098 48.9155H20.8901C22.1265 48.9155 23.3188 48.4147 24.2355 47.5103C25.1522 46.6058 25.7279 45.3624 25.8509 44.0213L28.1443 19.0227H6.75564Z" fill="black"/>
+                    </svg>
+                </div>
+                <h2 class="tables__title" id="cuptable">Стаканчики</h2>
+                <table>
+                    <tr>
+                        <th>1 шт.</th>  <th>2 шт.</th> <th>3 шт.</th>  <th>4 шт.</th>  <th>5 шт.</th> <th>6 шт.</th> 
+                    </tr>
+                    <tr>
+                        <td>3 BYN</td>  <td>5 BYN</td>  <td>7 BYN</td>  <td>9 BYN</td> <td>11 BYN</td> <td>13 BYN</td> 
+                    </tr>
+                    <tr class="tfoot__cup">
+                        <td rowspan="2" colspan="2" style="text-align: left; font-style: italic;font-weight: 600;"><p style="margin-left:60px">*Скидки для <br> юридических лиц,<br> использующих<br> безналичный расчет</p></td> <td>100 шт.</td> <td>200 шт.</td> <td colspan="2">от 300 шт.</td>  
+                    </tr>
+                    <tr class="tfoot__cup">
+                        <td>5%</td> <td>*6%</td> <td>*7%</td> <td>**8%</td> 
+                    </tr>
+                </table>
+                <p class="note">** только для постоянных клиентов</p>
+            </div>
+        </section>
+    </div>
+    <footer class="copyright">
+        <p>&copy; БГУИР, 2022</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,154 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+    padding-top: 75px;
+}
+
+.header {
+    text-align: center;
+}
+
+.nav__link {
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 36px;
+    line-height: 49px;
+    color: #408253;
+}
+
+.title {
+    font-size: 64px;
+    line-height: 87px;
+    text-align: center;
+    margin-top: 75px; 
+    margin-bottom: 33px;
+}
+
+.title__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitle {
+    margin-top: 87px;
+    margin-bottom: 55px;
+
+    font-size: 48px;
+    line-height: 65px;
+
+    text-align: center;
+}
+
+span {
+    font-size: 36px;
+    font-weight: 700;
+    color: #E5E5E5;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.intro__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+}
+
+.tables {
+    width: 1271px;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border: 1px solid #408253;
+    background-color:#D9F0E0;
+}
+  
+td,th {
+    width: 212px;
+    height: 103px;
+    border: 1px solid #408253;
+    text-align: center;
+}
+
+tr {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+
+.tables__title {
+    display: inline-block;
+    margin-top: 76px;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.tfoot__akva {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    background-color:#408253;
+    border: 1px solid #D9F0E0;
+    color:white;
+}
+
+
+.tfoot__akva td {
+    height: 66px;
+    border: 1px solid #D9F0E0;
+}
+
+.tfoot__cup {
+    background-color:#408253;
+    border: 1px solid #D9F0E0;
+    color:white;
+}
+
+.tfoot__cup td {
+    border: 1px solid #D9F0E0;
+}
+
+.logos {
+    display: inline-block;
+    margin: 0 22px 22px 0;
+}
+
+.note {
+    margin-top: 9px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: right;  
+    margin-bottom: 38px;
+    margin-right: 85px;
+}
